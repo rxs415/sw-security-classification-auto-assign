@@ -16,6 +16,4 @@ def create_headers(host, credentials, token_headers, request_headers):
     request_headers['Authorization'] = 'Bearer ' + token_json['token']
     headers = request_headers
     # print(headers)
-    # print("20240103 DG/DQ - Connect to Collibra DQ as a data source test passed")
-    # print(headers)
     return headers
